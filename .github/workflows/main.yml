@@ -65,9 +65,6 @@ jobs:
                GitHub Actions.
 
                 Link to live report (GitHub Pages):https://zulminan.github.io/Phoenix-Inwarranty-Flow/
-              Regards,
-              GitHub Actions
-          attachments: newman/index.html  
-     
-
-      
+               Regards,
+               GitHub Actions
+          attachments: newman/index.html
