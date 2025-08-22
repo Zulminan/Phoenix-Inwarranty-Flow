@@ -59,12 +59,15 @@ jobs:
           to: ahmedzulminan@gmail.com;ahmedsufiyan92786@gmail.com
           from: Zulminan from GitHub Actions <${{ secrets.EMAIL_USERNAME }}>
           body: |
+               
                Hello,
 
                Please find the attached HTML report generated after running the Postman tests via
                GitHub Actions.
 
-                Link to live report (GitHub Pages):https://zulminan.github.io/Phoenix-Inwarranty-Flow/
+               Link to live report (GitHub Pages):https://zulminan.github.io/Phoenix-Inwarranty-Flow/
+               
                Regards,
                GitHub Actions
+               
           attachments: newman/index.html
