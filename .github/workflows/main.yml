@@ -55,17 +55,15 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: API Test Report - GitHub Actions
+          subject: Phoenix Inwarranty Flow Test Execution Notification
           to: ahmedzulminan@gmail.com;ahmedsufiyan92786@gmail.com
-          from: Zulminan from GitHub Actions <${{ secrets.EMAIL_USERNAME }}>
+          from: ${{ secrets.EMAIL_USERNAME }}
           body: |
                
-               Hello,
+               Hi All,
 
-               Please find the attached HTML report generated after running the Postman tests via
-               GitHub Actions.
-
-               Link to live report (GitHub Pages):https://zulminan.github.io/Phoenix-Inwarranty-Flow/
+               Phoenix Inwarranty Flow Test has been executed. The report has been published and the URL
+               is: https://zulminan.github.io/Phoenix-Inwarranty-Flow/
                
                Regards,
                GitHub Actions
